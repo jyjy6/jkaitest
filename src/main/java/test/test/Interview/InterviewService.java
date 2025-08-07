@@ -26,8 +26,8 @@ public class InterviewService {
     
     @Value("${google.gemini.api.key}")
     private String geminiApiKey;
-    
-    private static final String GEMINI_API_URL = "https://generativelanguage.googleapis.com/v1beta/models/gemini-1.5-flash-latest:generateContent";
+
+    private static final String GEMINI_API_URL = "https://generativelanguage.googleapis.com/v1beta/models/gemini-2.5-flash:generateContent";
     
     /**
      * 사용자 프로필 분석 및 맞춤형 면접 콘텐츠 생성
@@ -55,7 +55,7 @@ public class InterviewService {
                                 InterviewAnalysisResponse.AnalysisMetadata metadata = 
                                         InterviewAnalysisResponse.AnalysisMetadata.builder()
                                                 .processingTimeMs(processingTime)
-                                                .aiModel("Google Gemini 1.5 Flash")
+                                                .aiModel("Google Gemini 2.5 Flash")
                                                 .qualityScore(calculateQualityScore(request))
                                                 .analysisTimestamp(LocalDateTime.now().format(DateTimeFormatter.ISO_LOCAL_DATE_TIME))
                                                 .priority(determinePriority(request))
@@ -388,6 +388,6 @@ public class InterviewService {
      * AI 모델 정보 조회
      */
     public Mono<String> getModelInfo() {
-        return Mono.just("Google Gemini 1.5 Flash Latest - 면접 질문 생성 및 학습 경로 추천에 최적화된 모델");
+        return Mono.just("Google Gemini 2.5 Flash Latest - 면접 질문 생성 및 학습 경로 추천에 최적화된 모델");
     }
 }

@@ -50,3 +50,6 @@ application.*
 application-test.properties
 bfg-1.15.0.jar
 .docker/
+
+.gemini
+.gemini/settings.json
