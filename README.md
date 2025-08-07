@@ -79,4 +79,7 @@ gemini.api.key=YOUR_GEMINI_API_KEY
 ## **참고**: API 키와 같은 민감한 정보는 Git에 커밋하지 마세요. **.gitignore에 반드시 작성!!**
 
 
+https://juneyoungjung6.shop/
+
+
 
