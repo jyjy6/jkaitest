@@ -2,6 +2,8 @@
 
 이 프로젝트는 사용자가 제공한 정보를 바탕으로 Google Gemini 2.5 Flash AI를 활용하여 맞춤형 모의 면접 질문, 자기 개발 제안, 그리고 학습 로드맵을 생성해주는 AI 기반 면접 준비 플랫폼입니다.
 
+
+
 ## ✨ 주요 기능
 
 - **맞춤형 면접 질문 생성**: 사용자의 경력, 기술, 지원하는 직무에 맞춰진 면접 질문을 제공합니다.
@@ -23,6 +25,8 @@
     필요에따라 프롬프트 엔지니어링으로 더 줄이거나 늘릴 수 있으며 사용하는 AI API의 성능에 따라 그 품질은 달라질 것입니다.
 
     ![AI 분석 결과](src/main/resources/static/GeminiResponse.webp)
+    ![AI 분석 결과](src/main/resources/static/GeminiResponseStop.jpg)
+    **맞춤형 면접 질문 멈춘화면**
 
 ## 🛠️ 기술 스택
 
@@ -33,6 +37,9 @@
 
 
 - **보여지는 FrontEnd**: Vue3, Vuetify, Axios
+
+## ️ ️🛠️ 사용한 Vue3 코드 + Cursor AI 로그파일
+https://juneyoung2da.s3.ap-northeast-2.amazonaws.com/portfolio/Vue3%2BAiChatLogFile.7z
 
 ## 🚀 시작하기
 
