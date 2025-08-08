@@ -52,7 +52,7 @@ https://juneyoung2da.s3.ap-northeast-2.amazonaws.com/portfolio/Vue3%2BAiChatLogF
 
 1.  **프로젝트 클론**
     ```sh
-    git clone [저장소 URL]
+    git clone https://github.com/jyjy6/jkaitest
     cd [프로젝트 디렉토리]
     ```
 
